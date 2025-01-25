@@ -31,7 +31,7 @@ Long Short-Term Memor (LSTM)
 
 The models are evaluated based on their ability to predict faults in the wind turbine data.
 
-##Installation
+## Installation
 ### 1. Clone the Repository  
 Clone this repository to your local machine:  
 ```bash  
