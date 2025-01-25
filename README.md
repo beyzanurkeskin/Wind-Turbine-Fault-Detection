@@ -1,15 +1,25 @@
-# Wind Turbine Fault Detection
+# Wind Turbine Fault Detection  
 
-## Authors
-Zeynep Begüm Aktan, Ezgi Aslan, Beyza Nur Keskin  
+## Authors  
+- Zeynep Begüm Aktan  
+- Ezgi Aslan  
+- Beyza Nur Keskin  
 
-## Objective
-Build a Spark-based ML pipeline to detect faults in wind turbines using SCADA data.  
+## Objective  
+Develop a scalable machine learning pipeline using Apache Spark to detect faults in wind turbines based on SCADA data.  
 
-## Methods
-- Data preprocessing and feature engineering using Spark SQL and MLlib.  
-- Model training: Random Forest, Gradient-Boosted Trees, Logistic Regression.  
-- Scalability testing with large datasets.  
+## Methods  
+- **Data Preprocessing and Feature Engineering**: Utilized Spark SQL and MLlib for efficient data handling and feature extraction.  
+- **Model Training**: Implemented various models, including Random Forest, Gradient-Boosted Trees, and Logistic Regression, to identify potential faults.  
+- **Scalability Testing**: Evaluated the pipeline's performance with large datasets to ensure robustness and efficiency.  
 
-## Outcome
-A scalable fault detection pipeline and insights for predictive maintenance.  
+## Repository Structure  
+```plaintext
+├── Preprocessing/
+│   ├── preprocessing_script.py
+│   └── data_cleaning_script.py
+├── eda.ipynb
+├── pca_lstm.ipynb
+├── rf_gbt_lstm.ipynb
+├── requirements.txt
+└── README.md
