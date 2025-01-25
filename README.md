@@ -34,8 +34,8 @@ The models are evaluated based on their ability to predict faults in the wind tu
 
 ## Usage
 1. Download the Dataset:
-   ```
-https://www.kaggle.com/datasets/azizkasimov/wind-turbine-scada-data-for-early-fault-detection   ```
+[   ```
+https://www.kaggle.com/datasets/azizkasimov/wind-turbine-scada-data-for-early-fault-detection   ```](https://www.kaggle.com/datasets/azizkasimov/wind-turbine-scada-data-for-early-fault-detection)
 3. Clone the repository:
    ```bash
    git clone https://github.com/beyzanurkeskin/Wind-Turbine-Fault-Detection.git  
@@ -44,7 +44,7 @@ https://www.kaggle.com/datasets/azizkasimov/wind-turbine-scada-data-for-early-fa
 4. Install dependencies:
    You can install the required Python packages using the following command
    ```
-   pip install pyspark tensorflow scikit-learn keras Pillow numpy matplotlib seaborn visualkeras opencv-python joblib dask time 
+   pip install pyspark tensorflow scikit-learn keras  numpy matplotlib seaborn visualkeras opencv-python joblib dask time 
    ```
 
 6. Run Jupyter Notebooks:
