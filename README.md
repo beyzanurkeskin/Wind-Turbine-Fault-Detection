@@ -9,14 +9,11 @@ This project focuses on detecting faults in wind turbines using machine learning
 ## Objective  
 Develop a scalable machine learning pipeline using Apache Spark to detect faults in wind turbines based on SCADA data.  
 
-## Data
-You can download the SCADA dataset from Kaggle:https://www.kaggle.com/datasets/azizkasimov/wind-turbine-scada-data-for-early-fault-detection
-
 ## Methods  
 - **Model Training**: Implemented various models, including Random Forest, Gradient-Boosted Trees, and Logistic Regression, to identify potential faults.  
 - **Scalability Testing**: Evaluated the pipeline's performance with large datasets to ensure robustness and efficiency.
 
-##Project Structure
+## Project Structure
 The project is organized into the following files:
 
 eda.ipynb:
@@ -41,4 +38,9 @@ Clone this repository to your local machine:
 git clone https://github.com/beyzanurkeskin/Wind-Turbine-Fault-Detection.git  
 cd Wind-Turbine-Fault-Detection  
 
+### 2. Dowload Dataset
+
+You can download the SCADA dataset from Kaggle:https://www.kaggle.com/datasets/azizkasimov/wind-turbine-scada-data-for-early-fault-detection
+
+### 3.Run Jupyter Notebooks
 
