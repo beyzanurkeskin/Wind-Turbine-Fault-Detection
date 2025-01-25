@@ -37,10 +37,20 @@ Clone this repository to your local machine:
 ```bash  
 git clone https://github.com/beyzanurkeskin/Wind-Turbine-Fault-Detection.git  
 cd Wind-Turbine-Fault-Detection  
+```
 
 ### 2. Dowload Dataset
 
 You can download the SCADA dataset from Kaggle:https://www.kaggle.com/datasets/azizkasimov/wind-turbine-scada-data-for-early-fault-detection
 
 ### 3.Run Jupyter Notebooks
+Open the Jupyter notebooks and execute the code:
+
+
+```bash
+jupyter notebook eda.ipynb  
+jupyter notebook pca_lstm.ipynb  
+jupyter notebook rf_gbt_lstm.ipynb  
+
+```
 
