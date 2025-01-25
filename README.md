@@ -13,13 +13,3 @@ Develop a scalable machine learning pipeline using Apache Spark to detect faults
 - **Model Training**: Implemented various models, including Random Forest, Gradient-Boosted Trees, and Logistic Regression, to identify potential faults.  
 - **Scalability Testing**: Evaluated the pipeline's performance with large datasets to ensure robustness and efficiency.  
 
-## Repository Structure  
-```plaintext
-├── Preprocessing/
-│   ├── preprocessing_script.py
-│   └── data_cleaning_script.py
-├── eda.ipynb
-├── pca_lstm.ipynb
-├── rf_gbt_lstm.ipynb
-├── requirements.txt
-└── README.md
