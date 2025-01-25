@@ -35,8 +35,7 @@ The models are evaluated based on their ability to predict faults in the wind tu
 ## Usage
 1. Download the Dataset:
    ```
-   [https://drive.google.com/drive/folders/1x8znRCDLU_i7m5WmKqC_xjEyDXnNW3yR?usp=sharing](https://www.kaggle.com/datasets/azizkasimov/wind-turbine-scada-data-for-early-fault-detection)
-   ```
+https://www.kaggle.com/datasets/azizkasimov/wind-turbine-scada-data-for-early-fault-detection   ```
 3. Clone the repository:
    ```bash
    git clone https://github.com/beyzanurkeskin/Wind-Turbine-Fault-Detection.git  
