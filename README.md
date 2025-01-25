@@ -31,35 +31,6 @@ Long Short-Term Memor (LSTM)
 
 The models are evaluated based on their ability to predict faults in the wind turbine data.
 
-## Installation
-### 1. Clone the Repository  
-Clone this repository to your local machine:  
-```bash  
-git clone https://github.com/beyzanurkeskin/Wind-Turbine-Fault-Detection.git  
-cd Wind-Turbine-Fault-Detection  
-```
-
-### 2. Dowload Dataset
-```bash  
-
-!mkdir -p ~/.kaggle
-!cp kaggle.json ~/.kaggle/
-!chmod 600 ~/.kaggle/kaggle.json
-
-!kaggle datasets download -d azizkasimov/wind-turbine-scada-data-for-early-fault-detection
-!unzip wind-turbine-scada-data-for-early-fault-detection.zip -d data/
-```
-
-### 3.Run Jupyter Notebooks
-Open the Jupyter notebooks and execute the code:
-
-
-```bash
-jupyter notebook eda.ipynb  
-jupyter notebook pca_lstm.ipynb  
-jupyter notebook rf_gbt_lstm.ipynb  
-
-```
 
 ## Usage
 1. Download the Dataset:
