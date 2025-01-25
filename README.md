@@ -40,8 +40,15 @@ cd Wind-Turbine-Fault-Detection
 ```
 
 ### 2. Dowload Dataset
+```bash  
 
-You can download the SCADA dataset from Kaggle:https://www.kaggle.com/datasets/azizkasimov/wind-turbine-scada-data-for-early-fault-detection
+!mkdir -p ~/.kaggle
+!cp kaggle.json ~/.kaggle/
+!chmod 600 ~/.kaggle/kaggle.json
+
+!kaggle datasets download -d azizkasimov/wind-turbine-scada-data-for-early-fault-detection
+!unzip wind-turbine-scada-data-for-early-fault-detection.zip -d data/
+```
 
 ### 3.Run Jupyter Notebooks
 Open the Jupyter notebooks and execute the code:
